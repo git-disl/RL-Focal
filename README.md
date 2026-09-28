@@ -2,6 +2,13 @@
 
 ![alt text](./main.jpg)
 
+## Paper Link
+
+
+Arxiv link: https://arxiv.org/abs/2502.04492
+
+Conference Page: https://icml.cc/virtual/2026/poster/64593
+
 ## Install
 
 ```
@@ -41,3 +48,20 @@ run.py --dataset_type gpqa --alpha 0.6  --focal_div_weight 0.3 --fleiss_kappa_we
 run.py --dataset_type musr --alpha 0.6 --focal_div_weight 0.5 --plurality_voting_weight 0.5
 ```
 You must provide Huggingface token inside config.py to run experiments on "bbh", "gpqa", and "musr".
+
+
+## Cite
+
+```
+@inproceedings{tekin2026dynamic,
+  title     = {Dynamic Optimizations of {LLM} Ensembles with Two-Stage Reinforcement Learning Agents},
+  author    = {Tekin, Selim Furkan and Liu, Gaowen and Kompella, Ramana and Liu, Ling},
+  booktitle = {Proceedings of the 43rd International Conference on Machine Learning},
+  series    = {Proceedings of Machine Learning Research},
+  publisher = {PMLR},
+  address   = {Seoul, South Korea},
+  year      = {2026},
+  url       = {https://icml.cc/virtual/2026/poster/64593}
+}
+
+```
